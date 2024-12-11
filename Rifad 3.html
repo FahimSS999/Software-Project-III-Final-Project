@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee List - Designer</title>
+  <style>
+    body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf6e3; /* Light beige for a creative feel */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ff6f61; /* Bright coral for a creative vibe */
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+/* Table Container */
+.container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #8a56ac; /* Purple tone for creative appeal */
+  color: white;
+}
+
+thead th {
+  padding: 15px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+tbody td {
+  padding: 15px;
+  text-align: left;
+}
+
+td, th {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 0.9rem;
+  }
+
+  thead th {
+    font-size: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Employee List</h1>
+    <p>Department: Designer</p>
+  </header>
+
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Post</th>
+          <th>Salary (Taka)</th>
+          <th>Experience (Years)</th>
+          <th>Project</th>
+          <th>Attendance (%)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Employee Data Rows -->
+        <tr>
+          <td>1</td>
+          <td>Rifad(1873)</td>
+          <td>UI/UX Designer</td>
+          <td>180,000</td>
+          <td>4</td>
+          <td>Mobile App Design</td>
+          <td>92%</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Zisan</td>
+          <td>Graphic Designer</td>
+          <td>120,000</td>
+          <td>3</td>
+          <td>Branding Package</td>
+          <td>88%</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Fahim</td>
+          <td>Product Designer</td>
+          <td>220,000</td>
+          <td>5</td>
+          <td>E-commerce Platform Design</td>
+          <td>95%</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Shihab</td>
+          <td>Web Designer</td>
+          <td>150,000</td>
+          <td>4</td>
+          <td>Corporate Website Redesign</td>
+          <td>90%</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Protik</td>
+          <td>Motion Designer</td>
+          <td>200,000</td>
+          <td>5</td>
+          <td>Animated Explainer Videos</td>
+          <td>94%</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Tawfik</td>
+          <td>Visual Designer</td>
+          <td>170,000</td>
+          <td>4</td>
+          <td>Ad Campaigns</td>
+          <td>89%</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Sabbir</td>
+          <td>Interior Designer</td>
+          <td>300,000</td>
+          <td>5</td>
+          <td>Office Space Revamp</td>
+          <td>96%</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Titas</td>
+          <td>Illustrator</td>
+          <td>140,000</td>
+          <td>3</td>
+          <td>Children's Book Design</td>
+          <td>86%</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Oli</td>
+          <td>3D Designer</td>
+          <td>250,000</td>
+          <td>5</td>
+          <td>Architectural Renderings</td>
+          <td>93%</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Taif</td>
+          <td>Art Director</td>
+          <td>320,000</td>
+          <td>5</td>
+          <td>Film Set Design</td>
+          <td>97%</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Moshiur</td>
+          <td>Creative Lead</td>
+          <td>400,000</td>
+          <td>5</td>
+          <td>Marketing Campaign Overhaul</td>
+          <td>94%</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Tanvir</td>
+          <td>Junior Designer</td>
+          <td>90,000</td>
+          <td>2</td>
+          <td>Logo Design</td>
+          <td>85%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
